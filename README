@@ -25,5 +25,5 @@ testing environment with DEBUG=False.
 
 This sources are available in https://github.com/eoconsulting/django-staticsfiles-ignoredebug
 
-License: AGPL-3
+License: LGPL-3
 (C) 2013
