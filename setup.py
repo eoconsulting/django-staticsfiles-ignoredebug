@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-#########################################################################################
+##############################################################################
 #
 #  Django Staticfiles Ignore Debug
-#  Copyright (C) 2013 Enterprise Objects Consulting (<http://www.eoconsulting.com.ar>)
+#  Copyright (C) 2013  Enterprise Objects Consulting
 #  All Rights Reserved
 #
 #  Author: Mariano Ruiz <mrsarm@gmail.com>
@@ -20,7 +20,7 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this programe.  If not, see <http://www.gnu.org/licenses/>.
 #
-#########################################################################################
+##############################################################################
 
 
 from setuptools import setup
@@ -30,8 +30,9 @@ setup(
     name = 'staticsfiles_ignoredebug',
     version=staticsfiles_ignoredebug.__version__,
     url='http://github.com/eoconsulting/django-staticsfiles-ignoredebug',
+    download_url = 'https://github.com/eoconsulting/django-staticsfiles-ignoredebug/tarball/' + staticsfiles_ignoredebug.__version__,
     license=staticsfiles_ignoredebug.__license__,
-    author='Mariano Ruiz',
+    author=staticsfiles_ignoredebug.__author__,
     author_email='mrsarm@gmail.com',
     description='Django Staticsfiles Ignore Debug',
     packages=[
@@ -41,7 +42,7 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'Django>=1.4'
+        'Django>=1.4',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -51,6 +52,6 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
-        'Topic :: Software Development :: Libraries :: Python Modules'
+        'Topic :: Software Development :: Libraries :: Python Modules',
     ],
 )

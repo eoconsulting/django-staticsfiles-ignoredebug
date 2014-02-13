@@ -4,14 +4,14 @@ Installing staticsfiles_ignoredebug
 Prerequisites
 -------------
 
- * Python 2.6+
- * Django 1.4+
+* Python 2.6+
+* Django 1.4+
 
 Installation
 ------------
 
 Once you've downloaded and unpacked the staticsfiles_ignoredebug source release,
-enter the directory where the archive was unpacked, and run:
+enter the directory where the archive was unpacked, and run::
 
     python setup.py install
 

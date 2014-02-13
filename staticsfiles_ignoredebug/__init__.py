@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-#########################################################################################
+##############################################################################
 #
 #  Django Staticfiles Ignore Debug
-#  Copyright (C) 2013 Enterprise Objects Consulting (<http://www.eoconsulting.com.ar>)
+#  Copyright (C) 2013  Enterprise Objects Consulting
 #  All Rights Reserved
 #
 #  Author: Mariano Ruiz <mrsarm@gmail.com>
@@ -20,9 +20,9 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this programe.  If not, see <http://www.gnu.org/licenses/>.
 #
-#########################################################################################
+##############################################################################
 
 
-__author__ = "Mariano Ruiz <mrsarm@gmail.com>"
+__author__ = "Enterprise Objects Consulting"
 __license__ = "AGPL-3"
-__version__ = "0.0.1"
+__version__ = "0.1.0"
